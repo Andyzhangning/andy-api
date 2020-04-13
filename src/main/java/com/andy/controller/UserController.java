@@ -15,7 +15,7 @@ public class UserController {
     @ApiOperation("用户登录")
     @GetMapping("/login")
     public String login() {
-        return "登录成功!!!";
+        return "登录成功!!!!";
     }
 
 }
